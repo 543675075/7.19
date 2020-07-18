@@ -1,0 +1,143 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #eceef2;
+  overflow: hidden;
+}
+/* 头 */
+.header {
+  position: relative;
+  width: 100vw;
+  height: 32vw;
+}
+.header img {
+  width: 100%;
+  height: 100%;
+}
+.header h1 {
+  position: absolute;
+  font-size: 8vw;
+  color: #fff;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+/* 文章 */
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4vw;
+}
+#content section {
+  display: flex;
+  align-items: center;
+  width: 92vw;
+  height: 26.667vw;
+  border-radius: 1.333vw;
+  margin-bottom: 4vw;
+  padding: 4vw 4.267vw;
+  background-color: #fff;
+}
+
+
+article {
+  flex: 1;
+  height: 15.733vw;
+  
+}
+article h2 {
+  width: 57.067vw;
+  overflow: hidden;
+  display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;
+  font-size: 3.733vw;
+  color: #333;
+}
+article p {
+  width: 53.6vw;
+  margin-top: 1.333vw;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 3.2vw;
+  color: #666;
+}
+.img {
+  width: 23.467vw;
+  height: 16.933vw;
+}
+
+
+
+/* 主题活动页面中特有样式 */
+.tabbar {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 10.667vw;
+  font-size: 3.733vw;
+  color: #333;
+  background-color: #fff;
+}
+.tabbar div {
+  flex: 1;
+  text-align: center;
+}
+.tabbar div span {
+  display: inline-block;
+  padding: 1.333vw 2.667vw;
+  border-radius: 5.333vw
+  
+}
+/* tabbar选中样式 */
+.active {
+  color: #fff;
+  background-color: #3178b2;
+}
+#content {
+  margin-top: 2.667vw;
+}
+#content #section {
+  height: auto;
+  padding: 0;
+  padding-bottom: 4vw;
+  background-color: transparent;
+  border-bottom: 1px solid #ccc;
+}
+#content #section article {
+  margin-left: 3.333vw;
+}
+#content #section article h2 {
+  width: 100%;
+  text-align: justify;
+}
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 16vw;
+  height: 17.333vw;
+  border: 1px solid #3178b2;
+  border-radius: 1.333vw;
+}
+.ym,.day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ym {
+  width: 100%;
+  height: 7.333vw;
+  font-size: 3.2vw;
+  font-weight: bold;
+  color: #fff;
+  background-color: #3178b2;
+}
+.day {
+  flex: 1;
+  font-size: 4.8vw;
+  font-weight: bold;
+}
