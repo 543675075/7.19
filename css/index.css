@@ -92,9 +92,15 @@ article p {
   
 }
 /* tabbar选中样式 */
+a {
+  color: #000;
+}
 .active {
   color: #fff;
   background-color: #3178b2;
+}
+.active a {
+  color: #fff;
 }
 #content {
   margin-top: 2.667vw;
@@ -140,4 +146,6 @@ article p {
   flex: 1;
   font-size: 4.8vw;
   font-weight: bold;
+  color: #000;
 }
+
